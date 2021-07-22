@@ -1,0 +1,159 @@
+textarea {
+    min-height: 400px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+}
+
+.userPanel {
+    display: flex;
+}
+
+#username {
+    padding-right: 20px;
+}
+
+#logout {
+    padding-left: 20px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-container {
+    align-items: center;
+    display: flex;
+    padding-right: 15px;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+#compose {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 20px;
+}
+
+#compose:hover {
+    filter: brightness(85%)
+}
+
+#compose:focus {
+    outline: none;
+}
+
+.email.formatted {
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px; 
+}
+
+.email.formatted:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    filter: brightness(75%);
+}
+
+.archiveButton {
+    background-color: gold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+}
+
+.archiveButton:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+}
+
+.archiveButton:focus {
+    outline: none;
+}
+
+/* Compose email styling */
+
+#compose-view {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0.5px #2d2d2d;
+    margin-bottom: 50px;
+}
+
+#compose-title {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 12.5px 10px;
+    color: white;
+    background-color: #2d2d2d;
+    width: 100%;
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#compose-form {
+    width: 90%;
+}
+
+#compose-view input {
+    margin: 15px 0px;
+}
+
+/* View email styling */
+
+#view-email {
+    background-color: #F1F3F4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px #2d2d2d;
+    height: 90%;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+#email-form {
+    height: 100%;
+    padding: 25px;
+  }
+  
+#content-container {
+    display: flex;
+    justify-content: center;
+}
+
+#content-container textarea {
+    height: 100%;
+    width: 97.5%;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+.email-buttons {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
