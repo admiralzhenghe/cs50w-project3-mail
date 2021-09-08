@@ -49,9 +49,6 @@ function send_email(event) {
       body: body
     }),
   })
-    .then(response => response.json())
-    .then(result => console.log(result))
-    .catch(error => console.log(error));
     setTimeout(() => { load_mailbox('sent'); }, 100);
 }
 
