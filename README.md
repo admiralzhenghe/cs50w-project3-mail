@@ -2,7 +2,6 @@
 
 Design a front-end for an email client that makes API calls to send and receive emails.
 
-
 ## Architecture
 
 **Frontend**
@@ -28,9 +27,9 @@ Design a front-end for an email client that makes API calls to send and receive 
 
 - Database:
   - SQLite
-  
-  ## Demo
-  
+
+## Demo
+
 **Send email**
 
 ![send_email](https://user-images.githubusercontent.com/68667158/164584075-6b93e1bb-dac7-4f7d-b8e9-692024ff60f6.gif)
